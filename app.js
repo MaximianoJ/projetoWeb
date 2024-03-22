@@ -17,7 +17,7 @@ app.get("/consultar", (req, res) => {
     res.render("Consultar")
 })
 
-app.listen(8081, () => {
+app.listen(8080, () => {
     console.log("Servidor ativo")
 })
 //link p/ handlebars
